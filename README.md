@@ -18,7 +18,7 @@ Skills 🛠️
 - **Security Fundamentals:** Penetration Testing, Cryptography (Encryption & Hashing)
 - **Networking:** TCP/IP, DNS, SSH
 - **Operating Systems:** Windows, Linux
-- **Tools:** Wireshark, tcpdump
+- **Tools:** Wireshark, tcpdump, Nmap, Hydra
 
 Projects 💻
 
@@ -46,9 +46,13 @@ Professional Experience 💼
 - Maintained safety protocols and cleanliness of the facility.
 - Handled daily cash reports and inventory management.
 
+Seeking Opportunities 🎯
+
+I am actively seeking a cybersecurity internship where I can apply my knowledge in penetration testing, network security, and incident response. I am eager to work with experienced professionals, contribute to real-world security challenges, and continue developing my technical skills in a hands-on environment.
+
 Contact 📧
 
-- **Email:** [colinosbo16@gmail.com](mailto:colinosbo16@gmail.com)
+- **Email:** [colinosbo16@gmail.com]
 - **Location:** Normal, Illinois, USA
 
 Feel free to explore my projects and reach out if you want to collaborate or discuss cybersecurity challenges!
