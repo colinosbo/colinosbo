@@ -1,18 +1,3 @@
-<div align="center">
-
-![banner](./banner.svg)
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=2500&pause=800&color=00FFB3&center=true&vCenter=true&repeat=true&width=650&lines=Security+Analyst+%7C+Threat+Hunting+%7C+Agentic+AI;Detection+%E2%80%A2+Vulnerability+Management+%E2%80%A2+AI+Automation;CompTIA+Security%2B+Certified+%F0%9F%94%90;Top+250+/+7%2C008+%E2%80%94+NCL+Spring+2026" />
-
-<br/>
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/colinosborn2002/)
-[![CompTIA Security+](https://img.shields.io/badge/CompTIA_Security%2B-FF0000?style=for-the-badge&logo=comptia&logoColor=white)](https://cp.certmetrics.com/comptia/en/public/verify/credential/fcc7a3c9e949462ca24b965d463484bb)
-
-</div>
-
----
-
 ## 👤 About Me
 
 <p align="center">
