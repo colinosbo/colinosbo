@@ -1,18 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="404" viewBox="0 0 900 404" role="img" aria-label="Terminal typing whoami for Colin Osborn">
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="380" viewBox="0 0 900 380" role="img" aria-label="Terminal typing whoami for Colin Osborn">
   <defs>
     <filter id="glow" x="-5%" y="-50%" width="110%" height="200%">
       <feGaussianBlur stdDeviation="1.6" result="b"/>
       <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
-    <linearGradient id="scan" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#3ce03c" stop-opacity="0"/>
-      <stop offset=".5" stop-color="#3ce03c" stop-opacity=".07"/>
-      <stop offset="1" stop-color="#3ce03c" stop-opacity="0"/>
-    </linearGradient>
     <pattern id="lines" width="4" height="3" patternUnits="userSpaceOnUse">
       <rect width="4" height="1" fill="#000" opacity=".35"/>
     </pattern>
-    <clipPath id="screen"><rect x="1" y="37" width="898" height="366" rx="7"/></clipPath>
+    <clipPath id="screen"><rect x="1" y="37" width="898" height="342" rx="7"/></clipPath>
   </defs>
   <style>
     text { font-family: Consolas, 'Cascadia Mono', 'Courier New', monospace; font-size: 15px; fill: #cccccc; white-space: pre; }
@@ -24,20 +19,54 @@
     .done { fill: #61d6d6; font-weight: bold; }
     .cmd  { fill: #ffffff; }
     .cur  { fill: #3ce03c; }
-    .a    { opacity: 0; animation: on .01s linear forwards; }
     .blink { animation: blink 1s steps(1) infinite; }
-    .sweep { animation: sweep 6s linear infinite; }
-    .boot  { animation: boot .6s ease-out both; transform-origin: 450px 202.0px; }
-    @keyframes on    { to { opacity: 1; } }
-    @keyframes gone  { to { opacity: 0; } }
+    .boot  { animation: boot .6s ease-out both; transform-origin: 450px 190.0px; }
     @keyframes blink { 50% { opacity: 0; } }
-    @keyframes type  { from { transform: translateX(0); } to { transform: translateX(var(--d)); } }
-    @keyframes sweep { from { transform: translateY(-120px); } to { transform: translateY(404px); } }
     @keyframes boot  { 0% { opacity: 0; transform: scaleY(.02); } 60% { opacity: 1; transform: scaleY(1.02); } 100% { transform: scaleY(1); } }
+    @keyframes t0{0%,94.636%{opacity:1}94.702%,100%{opacity:0}}
+    @keyframes s1{0%,2.649%{transform:translateX(0);animation-timing-function:steps(27,end)}8.907%,100%{transform:translateX(226.8px)}}
+    @keyframes c1{0%,9.370%{opacity:1}9.436%,100%{opacity:0}}
+    @keyframes k1{0%,2.583%{opacity:0}2.649%,9.370%{opacity:1}9.436%,100%{opacity:0}}
+    @keyframes t2{0%,94.636%{opacity:1}94.702%,100%{opacity:0}}
+    @keyframes s3{0%,9.701%{transform:translateX(0);animation-timing-function:steps(52,end)}18.310%,100%{transform:translateX(436.8px)}}
+    @keyframes c3{0%,18.774%{opacity:1}18.840%,100%{opacity:0}}
+    @keyframes k3{0%,9.635%{opacity:0}9.701%,18.774%{opacity:1}18.840%,100%{opacity:0}}
+    @keyframes t4{0%,19.038%{opacity:0}19.105%,94.636%{opacity:1}94.702%,100%{opacity:0}}
+    @keyframes s5{0%,25.065%{transform:translateX(0);animation-timing-function:steps(6,end)}30.627%,100%{transform:translateX(50.4px)}}
+    @keyframes c5{0%,31.091%{opacity:1}31.157%,100%{opacity:0}}
+    @keyframes k5{0%,19.038%{opacity:0}19.105%,31.091%{opacity:1}31.157%,100%{opacity:0}}
+    @keyframes t6{0%,94.636%{opacity:1}94.702%,100%{opacity:0}}
+    @keyframes s7{0%,33.607%{transform:translateX(0);animation-timing-function:steps(36,end)}37.421%,100%{transform:translateX(302.4px)}}
+    @keyframes c7{0%,37.885%{opacity:1}37.951%,100%{opacity:0}}
+    @keyframes k7{0%,33.541%{opacity:0}33.607%,37.885%{opacity:1}37.951%,100%{opacity:0}}
+    @keyframes t8{0%,94.636%{opacity:1}94.702%,100%{opacity:0}}
+    @keyframes s9{0%,38.216%{transform:translateX(0);animation-timing-function:steps(68,end)}45.421%,100%{transform:translateX(571.2px)}}
+    @keyframes c9{0%,45.884%{opacity:1}45.951%,100%{opacity:0}}
+    @keyframes k9{0%,38.150%{opacity:0}38.216%,45.884%{opacity:1}45.951%,100%{opacity:0}}
+    @keyframes t10{0%,94.636%{opacity:1}94.702%,100%{opacity:0}}
+    @keyframes s11{0%,46.215%{transform:translateX(0);animation-timing-function:steps(69,end)}53.526%,100%{transform:translateX(579.6px)}}
+    @keyframes c11{0%,53.990%{opacity:1}54.056%,100%{opacity:0}}
+    @keyframes k11{0%,46.149%{opacity:0}46.215%,53.990%{opacity:1}54.056%,100%{opacity:0}}
+    @keyframes t12{0%,94.636%{opacity:1}94.702%,100%{opacity:0}}
+    @keyframes s13{0%,54.321%{transform:translateX(0);animation-timing-function:steps(41,end)}58.665%,100%{transform:translateX(344.4px)}}
+    @keyframes c13{0%,59.129%{opacity:1}59.195%,100%{opacity:0}}
+    @keyframes k13{0%,54.255%{opacity:0}54.321%,59.129%{opacity:1}59.195%,100%{opacity:0}}
+    @keyframes t14{0%,94.636%{opacity:1}94.702%,100%{opacity:0}}
+    @keyframes s15{0%,59.460%{transform:translateX(0);animation-timing-function:steps(57,end)}65.499%,100%{transform:translateX(478.8px)}}
+    @keyframes c15{0%,65.963%{opacity:1}66.029%,100%{opacity:0}}
+    @keyframes k15{0%,59.393%{opacity:0}59.460%,65.963%{opacity:1}66.029%,100%{opacity:0}}
+    @keyframes t16{0%,94.636%{opacity:1}94.702%,100%{opacity:0}}
+    @keyframes s17{0%,66.294%{transform:translateX(0);animation-timing-function:steps(45,end)}72.253%,100%{transform:translateX(378.0px)}}
+    @keyframes c17{0%,72.717%{opacity:1}72.783%,100%{opacity:0}}
+    @keyframes k17{0%,66.227%{opacity:0}66.294%,72.717%{opacity:1}72.783%,100%{opacity:0}}
+    @keyframes t18{0%,72.982%{opacity:0}73.048%,94.636%{opacity:1}94.702%,100%{opacity:0}}
+    @keyframes s19{0%,89.603%{transform:translateX(0);animation-timing-function:steps(3,end)}92.385%,100%{transform:translateX(25.2px)}}
+    @keyframes c19{0%,92.848%{opacity:1}92.914%,100%{opacity:0}}
+    @keyframes k19{0%,72.982%{opacity:0}73.048%,92.848%{opacity:1}92.914%,100%{opacity:0}}
   </style>
 
   <g class="boot">
-  <rect x="0.5" y="0.5" width="899" height="403" rx="8" fill="#0c0c0c" stroke="#3a3a3a"/>
+  <rect x="0.5" y="0.5" width="899" height="379" rx="8" fill="#0c0c0c" stroke="#3a3a3a"/>
   <path d="M8.5 0.5 H891.5 A8 8 0 0 1 899.5 8.5 V36 H0.5 V8.5 A8 8 0 0 1 8.5 0.5 Z" fill="#1f1f1f"/>
   <rect x="16" y="12" width="14" height="12" rx="2" fill="none" stroke="#cccccc"/>
   <path d="M19 16 l3 2 -3 2" fill="none" stroke="#cccccc"/>
@@ -47,32 +76,30 @@
   <path d="M868 12 l11 11 M879 12 l-11 11" stroke="#cccccc"/>
 
   <g filter="url(#glow)">
-    <text x="24" y="72" textLength="226.8" lengthAdjust="spacing">Colinosbo [Version 2026.11]</text>
-    <text x="24" y="96" textLength="436.8" lengthAdjust="spacing">(c) Colin Osborn. Security engineering &amp; agentic AI.</text>
-    <g class="a" style="animation-delay:2.89s"><text x="24" y="144" textLength="176.4" lengthAdjust="spacing">C:\Users\colin&gt;<tspan class="cmd">whoami</tspan></text></g>
-    <text x="24" y="168" textLength="302.4" lengthAdjust="spacing"><tspan class="ok">[ OK ]</tspan> name <tspan class="dot">...........</tspan> <tspan class="val">Colin Osborn</tspan></text>
-    <text x="24" y="192" textLength="571.2" lengthAdjust="spacing"><tspan class="ok">[ OK ]</tspan> role <tspan class="dot">...........</tspan> <tspan class="val">Security Analyst @ CCC Intelligent Solutions</tspan></text>
-    <text x="24" y="216" textLength="579.6" lengthAdjust="spacing"><tspan class="ok">[ OK ]</tspan> education <tspan class="dot">......</tspan> <tspan class="val">B.S. Cybersecurity, Illinois State University</tspan></text>
-    <text x="24" y="240" textLength="344.4" lengthAdjust="spacing"><tspan class="ok">[ OK ]</tspan> certs <tspan class="dot">..........</tspan> <tspan class="val">CompTIA Security+</tspan></text>
-    <text x="24" y="264" textLength="478.8" lengthAdjust="spacing"><tspan class="info">[INFO]</tspan> focus <tspan class="dot">..........</tspan> <tspan class="val">Security engineering · Agentic AI</tspan></text>
-    <text x="24" y="312" textLength="378.0" lengthAdjust="spacing"><tspan class="done">=== Done ===</tspan>  linkedin.com/in/colinosborn2002</text>
-    <g class="a" style="animation-delay:11.03s"><text x="24" y="360" textLength="126.0" lengthAdjust="spacing">C:\Users\colin&gt;</text><rect x="150.0" y="346" width="8.4" height="18" class="cur blink"/></g>
+    <g style="animation:t0 15.101s linear infinite"><text x="24" y="72" textLength="226.8" lengthAdjust="spacing">Colinosbo [Version 2026.11]</text></g>
+    <g style="animation:t2 15.101s linear infinite"><text x="24" y="96" textLength="436.8" lengthAdjust="spacing">(c) Colin Osborn. Security engineering &amp; agentic AI.</text></g>
+    <g style="animation:t4 15.101s linear infinite"><text x="24" y="144" textLength="176.4" lengthAdjust="spacing">C:\Users\colin&gt;<tspan class="cmd">whoami</tspan></text></g>
+    <g style="animation:t6 15.101s linear infinite"><text x="24" y="168" textLength="302.4" lengthAdjust="spacing"><tspan class="ok">[ OK ]</tspan> name <tspan class="dot">...........</tspan> <tspan class="val">Colin Osborn</tspan></text></g>
+    <g style="animation:t8 15.101s linear infinite"><text x="24" y="192" textLength="571.2" lengthAdjust="spacing"><tspan class="ok">[ OK ]</tspan> role <tspan class="dot">...........</tspan> <tspan class="val">Security Analyst @ CCC Intelligent Solutions</tspan></text></g>
+    <g style="animation:t10 15.101s linear infinite"><text x="24" y="216" textLength="579.6" lengthAdjust="spacing"><tspan class="ok">[ OK ]</tspan> education <tspan class="dot">......</tspan> <tspan class="val">B.S. Cybersecurity, Illinois State University</tspan></text></g>
+    <g style="animation:t12 15.101s linear infinite"><text x="24" y="240" textLength="344.4" lengthAdjust="spacing"><tspan class="ok">[ OK ]</tspan> certs <tspan class="dot">..........</tspan> <tspan class="val">CompTIA Security+</tspan></text></g>
+    <g style="animation:t14 15.101s linear infinite"><text x="24" y="264" textLength="478.8" lengthAdjust="spacing"><tspan class="info">[INFO]</tspan> focus <tspan class="dot">..........</tspan> <tspan class="val">Security engineering · Agentic AI</tspan></text></g>
+    <g style="animation:t16 15.101s linear infinite"><text x="24" y="312" textLength="378.0" lengthAdjust="spacing"><tspan class="done">=== Done ===</tspan>  linkedin.com/in/colinosborn2002</text></g>
+    <g style="animation:t18 15.101s linear infinite"><text x="24" y="360" textLength="151.2" lengthAdjust="spacing">C:\Users\colin&gt;<tspan class="cmd">cls</tspan></text></g>
   </g>
   <g>
-    <g class="cv" style="--d:226.8px;animation:type 0.945s steps(27) 0.400s both,gone .01s linear 1.425s forwards"><rect x="24.0" y="55" width="874.0" height="24" fill="#0c0c0c"/><g class="a" style="animation-delay:0.400s"><rect x="24.0" y="58" width="8.4" height="18" class="cur blink"/></g></g>
-    <g class="cv" style="--d:436.8px;animation:type 1.300s steps(52) 1.465s both,gone .01s linear 2.845s forwards"><rect x="24.0" y="79" width="874.0" height="24" fill="#0c0c0c"/><g class="a" style="animation-delay:1.465s"><rect x="24.0" y="82" width="8.4" height="18" class="cur blink"/></g></g>
-    <g class="cv" style="--d:50.4px;animation:type 0.840s steps(6) 3.785s both,gone .01s linear 4.705s forwards"><rect x="150.0" y="127" width="748.0" height="24" fill="#0c0c0c"/><g class="a" style="animation-delay:2.885s"><rect x="150.0" y="130" width="8.4" height="18" class="cur blink"/></g></g>
-    <g class="cv" style="--d:302.4px;animation:type 0.576s steps(36) 5.075s both,gone .01s linear 5.731s forwards"><rect x="24.0" y="151" width="874.0" height="24" fill="#0c0c0c"/><g class="a" style="animation-delay:5.075s"><rect x="24.0" y="154" width="8.4" height="18" class="cur blink"/></g></g>
-    <g class="cv" style="--d:571.2px;animation:type 1.088s steps(68) 5.771s both,gone .01s linear 6.939s forwards"><rect x="24.0" y="175" width="874.0" height="24" fill="#0c0c0c"/><g class="a" style="animation-delay:5.771s"><rect x="24.0" y="178" width="8.4" height="18" class="cur blink"/></g></g>
-    <g class="cv" style="--d:579.6px;animation:type 1.104s steps(69) 6.979s both,gone .01s linear 8.163s forwards"><rect x="24.0" y="199" width="874.0" height="24" fill="#0c0c0c"/><g class="a" style="animation-delay:6.979s"><rect x="24.0" y="202" width="8.4" height="18" class="cur blink"/></g></g>
-    <g class="cv" style="--d:344.4px;animation:type 0.656s steps(41) 8.203s both,gone .01s linear 8.939s forwards"><rect x="24.0" y="223" width="874.0" height="24" fill="#0c0c0c"/><g class="a" style="animation-delay:8.203s"><rect x="24.0" y="226" width="8.4" height="18" class="cur blink"/></g></g>
-    <g class="cv" style="--d:478.8px;animation:type 0.912s steps(57) 8.979s both,gone .01s linear 9.971s forwards"><rect x="24.0" y="247" width="874.0" height="24" fill="#0c0c0c"/><g class="a" style="animation-delay:8.979s"><rect x="24.0" y="250" width="8.4" height="18" class="cur blink"/></g></g>
-    <g class="cv" style="--d:378.0px;animation:type 0.900s steps(45) 10.011s both,gone .01s linear 10.991s forwards"><rect x="24.0" y="295" width="874.0" height="24" fill="#0c0c0c"/><g class="a" style="animation-delay:10.011s"><rect x="24.0" y="298" width="8.4" height="18" class="cur blink"/></g></g>
+    <g style="animation:c1 15.101s linear infinite"><g style="animation:s1 15.101s linear infinite"><rect x="24.0" y="55" width="874.0" height="24" fill="#0c0c0c"/><g style="animation:k1 15.101s linear infinite"><rect x="24.0" y="58" width="8.4" height="18" class="cur blink"/></g></g></g>
+    <g style="animation:c3 15.101s linear infinite"><g style="animation:s3 15.101s linear infinite"><rect x="24.0" y="79" width="874.0" height="24" fill="#0c0c0c"/><g style="animation:k3 15.101s linear infinite"><rect x="24.0" y="82" width="8.4" height="18" class="cur blink"/></g></g></g>
+    <g style="animation:c5 15.101s linear infinite"><g style="animation:s5 15.101s linear infinite"><rect x="150.0" y="127" width="748.0" height="24" fill="#0c0c0c"/><g style="animation:k5 15.101s linear infinite"><rect x="150.0" y="130" width="8.4" height="18" class="cur blink"/></g></g></g>
+    <g style="animation:c7 15.101s linear infinite"><g style="animation:s7 15.101s linear infinite"><rect x="24.0" y="151" width="874.0" height="24" fill="#0c0c0c"/><g style="animation:k7 15.101s linear infinite"><rect x="24.0" y="154" width="8.4" height="18" class="cur blink"/></g></g></g>
+    <g style="animation:c9 15.101s linear infinite"><g style="animation:s9 15.101s linear infinite"><rect x="24.0" y="175" width="874.0" height="24" fill="#0c0c0c"/><g style="animation:k9 15.101s linear infinite"><rect x="24.0" y="178" width="8.4" height="18" class="cur blink"/></g></g></g>
+    <g style="animation:c11 15.101s linear infinite"><g style="animation:s11 15.101s linear infinite"><rect x="24.0" y="199" width="874.0" height="24" fill="#0c0c0c"/><g style="animation:k11 15.101s linear infinite"><rect x="24.0" y="202" width="8.4" height="18" class="cur blink"/></g></g></g>
+    <g style="animation:c13 15.101s linear infinite"><g style="animation:s13 15.101s linear infinite"><rect x="24.0" y="223" width="874.0" height="24" fill="#0c0c0c"/><g style="animation:k13 15.101s linear infinite"><rect x="24.0" y="226" width="8.4" height="18" class="cur blink"/></g></g></g>
+    <g style="animation:c15 15.101s linear infinite"><g style="animation:s15 15.101s linear infinite"><rect x="24.0" y="247" width="874.0" height="24" fill="#0c0c0c"/><g style="animation:k15 15.101s linear infinite"><rect x="24.0" y="250" width="8.4" height="18" class="cur blink"/></g></g></g>
+    <g style="animation:c17 15.101s linear infinite"><g style="animation:s17 15.101s linear infinite"><rect x="24.0" y="295" width="874.0" height="24" fill="#0c0c0c"/><g style="animation:k17 15.101s linear infinite"><rect x="24.0" y="298" width="8.4" height="18" class="cur blink"/></g></g></g>
+    <g style="animation:c19 15.101s linear infinite"><g style="animation:s19 15.101s linear infinite"><rect x="150.0" y="343" width="748.0" height="24" fill="#0c0c0c"/><g style="animation:k19 15.101s linear infinite"><rect x="150.0" y="346" width="8.4" height="18" class="cur blink"/></g></g></g>
   </g>
 
-  <g clip-path="url(#screen)" pointer-events="none">
-    <rect x="0" y="37" width="900" height="367" fill="url(#lines)"/>
-    <rect class="sweep" x="0" y="0" width="900" height="120" fill="url(#scan)"/>
-  </g>
+  <rect x="1" y="37" width="898" height="342" fill="url(#lines)" clip-path="url(#screen)" pointer-events="none"/>
   </g>
 </svg>
