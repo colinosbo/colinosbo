@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="500" viewBox="0 0 900 500" role="img" aria-label="Terminal typing whoami for Colin Osborn">
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="428" viewBox="0 0 900 428" role="img" aria-label="Terminal typing whoami for Colin Osborn">
   <defs>
     <filter id="glow" x="-5%" y="-50%" width="110%" height="200%">
       <feGaussianBlur stdDeviation="1.6" result="b"/>
@@ -12,7 +12,7 @@
     <pattern id="lines" width="4" height="3" patternUnits="userSpaceOnUse">
       <rect width="4" height="1" fill="#000" opacity=".35"/>
     </pattern>
-    <clipPath id="screen"><rect x="1" y="37" width="898" height="462" rx="7"/></clipPath>
+    <clipPath id="screen"><rect x="1" y="37" width="898" height="390" rx="7"/></clipPath>
   </defs>
   <style>
     text { font-family: Consolas, 'Cascadia Mono', 'Courier New', monospace; font-size: 15px; fill: #cccccc; white-space: pre; }
@@ -27,17 +27,17 @@
     .a    { opacity: 0; animation: on .01s linear forwards; }
     .blink { animation: blink 1s steps(1) infinite; }
     .sweep { animation: sweep 6s linear infinite; }
-    .boot  { animation: boot .6s ease-out both; transform-origin: 450px 250.0px; }
+    .boot  { animation: boot .6s ease-out both; transform-origin: 450px 214.0px; }
     @keyframes on    { to { opacity: 1; } }
     @keyframes gone  { to { opacity: 0; } }
     @keyframes blink { 50% { opacity: 0; } }
     @keyframes type  { from { transform: translateX(0); } to { transform: translateX(var(--d)); } }
-    @keyframes sweep { from { transform: translateY(-120px); } to { transform: translateY(500px); } }
+    @keyframes sweep { from { transform: translateY(-120px); } to { transform: translateY(428px); } }
     @keyframes boot  { 0% { opacity: 0; transform: scaleY(.02); } 60% { opacity: 1; transform: scaleY(1.02); } 100% { transform: scaleY(1); } }
   </style>
 
   <g class="boot">
-  <rect x="0.5" y="0.5" width="899" height="499" rx="8" fill="#0c0c0c" stroke="#3a3a3a"/>
+  <rect x="0.5" y="0.5" width="899" height="427" rx="8" fill="#0c0c0c" stroke="#3a3a3a"/>
   <path d="M8.5 0.5 H891.5 A8 8 0 0 1 899.5 8.5 V36 H0.5 V8.5 A8 8 0 0 1 8.5 0.5 Z" fill="#1f1f1f"/>
   <rect x="16" y="12" width="14" height="12" rx="2" fill="none" stroke="#cccccc"/>
   <path d="M19 16 l3 2 -3 2" fill="none" stroke="#cccccc"/>
@@ -55,12 +55,9 @@
     <text x="24" y="216" textLength="579.6" lengthAdjust="spacing"><tspan class="ok">[ OK ]</tspan> education <tspan class="dot">......</tspan> <tspan class="val">B.S. Cybersecurity, Illinois State University</tspan></text>
     <text x="24" y="240" textLength="344.4" lengthAdjust="spacing"><tspan class="ok">[ OK ]</tspan> certs <tspan class="dot">..........</tspan> <tspan class="val">CompTIA Security+</tspan></text>
     <text x="24" y="264" textLength="478.8" lengthAdjust="spacing"><tspan class="info">[INFO]</tspan> focus <tspan class="dot">..........</tspan> <tspan class="val">Security engineering · Agentic AI</tspan></text>
-    <text x="24" y="288" textLength="646.8" lengthAdjust="spacing"><tspan class="info">[INFO]</tspan> platforms <tspan class="dot">......</tspan> <tspan class="val">Defender · Sentinel · Wiz · Entra ID · Intune · Azure</tspan></text>
-    <text x="24" y="312" textLength="579.6" lengthAdjust="spacing"><tspan class="ok">[ OK ]</tspan> win <tspan class="dot">............</tspan> <tspan class="val">DRP backlog 3,500 → &lt;10 with AI triage agents</tspan></text>
-    <text x="24" y="336" textLength="613.2" lengthAdjust="spacing"><tspan class="info">[INFO]</tspan> projects <tspan class="dot">.......</tspan> <tspan class="val">Covisor (Azure + CI/CD) · Email Threat Intel tool</tspan></text>
-    <text x="24" y="360" textLength="604.8" lengthAdjust="spacing"><tspan class="info">[INFO]</tspan> competitions <tspan class="dot">...</tspan> <tspan class="val">National Cyber League · NCAE Cyber Defense Games</tspan></text>
-    <text x="24" y="408" textLength="378.0" lengthAdjust="spacing"><tspan class="done">=== Done ===</tspan>  linkedin.com/in/colinosborn2002</text>
-    <g class="a" style="animation-delay:16.17s"><text x="24" y="456" textLength="126.0" lengthAdjust="spacing">C:\Users\colin&gt;</text><rect x="150.0" y="442" width="8.4" height="18" class="cur blink"/></g>
+    <text x="24" y="288" textLength="579.6" lengthAdjust="spacing"><tspan class="ok">[ OK ]</tspan> win <tspan class="dot">............</tspan> <tspan class="val">DRP backlog 3,500 → &lt;10 with AI triage agents</tspan></text>
+    <text x="24" y="336" textLength="378.0" lengthAdjust="spacing"><tspan class="done">=== Done ===</tspan>  linkedin.com/in/colinosborn2002</text>
+    <g class="a" style="animation-delay:12.26s"><text x="24" y="384" textLength="126.0" lengthAdjust="spacing">C:\Users\colin&gt;</text><rect x="150.0" y="370" width="8.4" height="18" class="cur blink"/></g>
   </g>
   <g>
     <g class="cv" style="--d:226.8px;animation:type 0.945s steps(27) 0.400s both,gone .01s linear 1.425s forwards"><rect x="24.0" y="55" width="874.0" height="24" fill="#0c0c0c"/><g class="a" style="animation-delay:0.400s"><rect x="24.0" y="58" width="8.4" height="18" class="cur blink"/></g></g>
@@ -71,15 +68,12 @@
     <g class="cv" style="--d:579.6px;animation:type 1.104s steps(69) 6.979s both,gone .01s linear 8.163s forwards"><rect x="24.0" y="199" width="874.0" height="24" fill="#0c0c0c"/><g class="a" style="animation-delay:6.979s"><rect x="24.0" y="202" width="8.4" height="18" class="cur blink"/></g></g>
     <g class="cv" style="--d:344.4px;animation:type 0.656s steps(41) 8.203s both,gone .01s linear 8.939s forwards"><rect x="24.0" y="223" width="874.0" height="24" fill="#0c0c0c"/><g class="a" style="animation-delay:8.203s"><rect x="24.0" y="226" width="8.4" height="18" class="cur blink"/></g></g>
     <g class="cv" style="--d:478.8px;animation:type 0.912s steps(57) 8.979s both,gone .01s linear 9.971s forwards"><rect x="24.0" y="247" width="874.0" height="24" fill="#0c0c0c"/><g class="a" style="animation-delay:8.979s"><rect x="24.0" y="250" width="8.4" height="18" class="cur blink"/></g></g>
-    <g class="cv" style="--d:646.8px;animation:type 1.232s steps(77) 10.011s both,gone .01s linear 11.323s forwards"><rect x="24.0" y="271" width="874.0" height="24" fill="#0c0c0c"/><g class="a" style="animation-delay:10.011s"><rect x="24.0" y="274" width="8.4" height="18" class="cur blink"/></g></g>
-    <g class="cv" style="--d:579.6px;animation:type 1.104s steps(69) 11.363s both,gone .01s linear 12.547s forwards"><rect x="24.0" y="295" width="874.0" height="24" fill="#0c0c0c"/><g class="a" style="animation-delay:11.363s"><rect x="24.0" y="298" width="8.4" height="18" class="cur blink"/></g></g>
-    <g class="cv" style="--d:613.2px;animation:type 1.168s steps(73) 12.587s both,gone .01s linear 13.835s forwards"><rect x="24.0" y="319" width="874.0" height="24" fill="#0c0c0c"/><g class="a" style="animation-delay:12.587s"><rect x="24.0" y="322" width="8.4" height="18" class="cur blink"/></g></g>
-    <g class="cv" style="--d:604.8px;animation:type 1.152s steps(72) 13.875s both,gone .01s linear 15.107s forwards"><rect x="24.0" y="343" width="874.0" height="24" fill="#0c0c0c"/><g class="a" style="animation-delay:13.875s"><rect x="24.0" y="346" width="8.4" height="18" class="cur blink"/></g></g>
-    <g class="cv" style="--d:378.0px;animation:type 0.900s steps(45) 15.147s both,gone .01s linear 16.127s forwards"><rect x="24.0" y="391" width="874.0" height="24" fill="#0c0c0c"/><g class="a" style="animation-delay:15.147s"><rect x="24.0" y="394" width="8.4" height="18" class="cur blink"/></g></g>
+    <g class="cv" style="--d:579.6px;animation:type 1.104s steps(69) 10.011s both,gone .01s linear 11.195s forwards"><rect x="24.0" y="271" width="874.0" height="24" fill="#0c0c0c"/><g class="a" style="animation-delay:10.011s"><rect x="24.0" y="274" width="8.4" height="18" class="cur blink"/></g></g>
+    <g class="cv" style="--d:378.0px;animation:type 0.900s steps(45) 11.235s both,gone .01s linear 12.215s forwards"><rect x="24.0" y="319" width="874.0" height="24" fill="#0c0c0c"/><g class="a" style="animation-delay:11.235s"><rect x="24.0" y="322" width="8.4" height="18" class="cur blink"/></g></g>
   </g>
 
   <g clip-path="url(#screen)" pointer-events="none">
-    <rect x="0" y="37" width="900" height="463" fill="url(#lines)"/>
+    <rect x="0" y="37" width="900" height="391" fill="url(#lines)"/>
     <rect class="sweep" x="0" y="0" width="900" height="120" fill="url(#scan)"/>
   </g>
   </g>
