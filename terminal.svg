@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="500" viewBox="0 0 900 500" role="img" aria-label="Terminal running whoami for Colin Osborn">
+  <style>
+    text { font-family: Consolas, 'Cascadia Mono', 'Courier New', monospace; font-size: 15px; fill: #cccccc; white-space: pre; }
+    .title { font-family: 'Segoe UI', Arial, sans-serif; font-size: 12px; fill: #cccccc; }
+    .ok   { fill: #16c60c; }
+    .info { fill: #f9f1a5; }
+    .val  { fill: #3ce03c; }
+    .dot  { fill: #4a4a4a; }
+    .done { fill: #61d6d6; }
+    .cmd  { fill: #ffffff; }
+
+    /* every animated element starts hidden, then snaps on at its delay */
+    .a { opacity: 0; animation: on .01s linear forwards; }
+    /* typing frames: snap on, then snap off when the next frame appears */
+    .f { opacity: 0; animation: on .01s linear forwards, off .01s linear forwards; }
+    .blink { animation: blink 1s steps(1) infinite; }
+
+    @keyframes on    { to { opacity: 1; } }
+    @keyframes off   { to { opacity: 0; } }
+    @keyframes blink { 50% { opacity: 0; } }
+  </style>
+
+  <!-- window -->
+  <rect x="0.5" y="0.5" width="899" height="499" rx="8" fill="#0c0c0c" stroke="#3a3a3a"/>
+  <path d="M8.5 0.5 H891.5 A8 8 0 0 1 899.5 8.5 V36 H0.5 V8.5 A8 8 0 0 1 8.5 0.5 Z" fill="#1f1f1f"/>
+  <rect x="16" y="12" width="14" height="12" rx="2" fill="none" stroke="#cccccc"/>
+  <path d="M19 16 l3 2 -3 2" fill="none" stroke="#cccccc"/>
+  <text class="title" x="40" y="23">C:\WINDOWS\system32\cmd.exe</text>
+  <path d="M790 18 h12" stroke="#cccccc"/>
+  <rect x="830" y="12" width="11" height="11" fill="none" stroke="#cccccc"/>
+  <path d="M868 12 l11 11 M879 12 l-11 11" stroke="#cccccc"/>
+
+  <!-- banner -->
+  <text x="24" y="70">Colinosbo [Version 2026.11]</text>
+  <text x="24" y="94">(c) Colin Osborn. Security engineering &amp; agentic AI.</text>
+
+  <!-- typing "whoami" -->
+  <g>
+    <text class="f" x="24" y="142" style="animation-delay:0s,.8s">C:\Users\colin&gt;<tspan class="blink">_</tspan></text>
+    <text class="f" x="24" y="142" style="animation-delay:.8s,.95s">C:\Users\colin&gt;<tspan class="cmd">w</tspan>_</text>
+    <text class="f" x="24" y="142" style="animation-delay:.95s,1.1s">C:\Users\colin&gt;<tspan class="cmd">wh</tspan>_</text>
+    <text class="f" x="24" y="142" style="animation-delay:1.1s,1.25s">C:\Users\colin&gt;<tspan class="cmd">who</tspan>_</text>
+    <text class="f" x="24" y="142" style="animation-delay:1.25s,1.4s">C:\Users\colin&gt;<tspan class="cmd">whoa</tspan>_</text>
+    <text class="f" x="24" y="142" style="animation-delay:1.4s,1.55s">C:\Users\colin&gt;<tspan class="cmd">whoam</tspan>_</text>
+    <text class="f" x="24" y="142" style="animation-delay:1.55s,2.0s">C:\Users\colin&gt;<tspan class="cmd">whoami</tspan>_</text>
+    <text class="a" x="24" y="142" style="animation-delay:2.0s">C:\Users\colin&gt;<tspan class="cmd">whoami</tspan></text>
+  </g>
+
+  <!-- output -->
+  <text class="a" x="24" y="166" style="animation-delay:2.3s"><tspan class="ok">[ OK ]</tspan> name <tspan class="dot">...........</tspan> <tspan class="val">Colin Osborn</tspan></text>
+  <text class="a" x="24" y="190" style="animation-delay:2.5s"><tspan class="ok">[ OK ]</tspan> role <tspan class="dot">...........</tspan> <tspan class="val">Security Analyst @ CCC Intelligent Solutions</tspan></text>
+  <text class="a" x="24" y="214" style="animation-delay:2.7s"><tspan class="ok">[ OK ]</tspan> education <tspan class="dot">......</tspan> <tspan class="val">B.S. Cybersecurity, Illinois State University</tspan></text>
+  <text class="a" x="24" y="238" style="animation-delay:2.9s"><tspan class="ok">[ OK ]</tspan> certs <tspan class="dot">..........</tspan> <tspan class="val">CompTIA Security+</tspan></text>
+  <text class="a" x="24" y="262" style="animation-delay:3.1s"><tspan class="info">[INFO]</tspan> focus <tspan class="dot">..........</tspan> <tspan class="val">Security engineering · Agentic AI</tspan></text>
+  <text class="a" x="24" y="286" style="animation-delay:3.3s"><tspan class="info">[INFO]</tspan> platforms <tspan class="dot">......</tspan> <tspan class="val">Defender · Sentinel · Wiz · Entra ID · Intune · Azure</tspan></text>
+  <text class="a" x="24" y="310" style="animation-delay:3.5s"><tspan class="ok">[ OK ]</tspan> win <tspan class="dot">............</tspan> <tspan class="val">DRP backlog 3,500 → &lt;10 with AI triage agents</tspan></text>
+  <text class="a" x="24" y="334" style="animation-delay:3.7s"><tspan class="info">[INFO]</tspan> projects <tspan class="dot">.......</tspan> <tspan class="val">Covisor (Azure + CI/CD) · Email Threat Intel tool</tspan></text>
+  <text class="a" x="24" y="358" style="animation-delay:3.9s"><tspan class="info">[INFO]</tspan> competitions <tspan class="dot">...</tspan> <tspan class="val">National Cyber League · NCAE Cyber Defense Games</tspan></text>
+  <text class="a" x="24" y="394" style="animation-delay:4.2s"><tspan class="done">=== Done ===</tspan>  linkedin.com/in/colinosborn2002</text>
+
+  <!-- final prompt -->
+  <text class="a" x="24" y="442" style="animation-delay:4.5s">C:\Users\colin&gt;<tspan class="blink">_</tspan></text>
+</svg>

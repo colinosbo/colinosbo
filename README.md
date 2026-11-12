@@ -15,13 +15,9 @@
 
 ## 👤 About Me
 
-```yaml
-name:      Colin Osborn
-currently: Cybersecurity Intern (DevSecOps) @ CCC Intelligent Solutions
-focus:     DevSecOps automation · Cloud security · Detection & response
-education: B.S. Cybersecurity @ Illinois State University
-cert:      CompTIA Security+
-```
+<p align="center">
+  <img src="./terminal.svg" alt="whoami: Colin Osborn, Security Analyst @ CCC Intelligent Solutions, B.S. Cybersecurity at Illinois State University, CompTIA Security+, focus: security engineering and agentic AI" width="100%">
+</p>
 
 I sit where **security engineering meets security operations** — building the automation and cloud tooling that make defense scale, then using it to catch and respond to real threats. Blue-team instincts, engineer's toolbox.
 
@@ -39,7 +35,7 @@ I sit where **security engineering meets security operations** — building the 
 
 ## 💼 Experience
 
-**🏢 Cybersecurity Intern — DevSecOps · CCC Intelligent Solutions** *(May 2026 – Present · Chicago, IL)*
+**🏢 Security Analyst · CCC Intelligent Solutions** *(May 2026 – Present · Chicago, IL)*
 > Security engineering across an enterprise program protecting a cloud platform that connects **35,000+ businesses**.
 > - **Built automated vulnerability ticketing between Wiz and Jira** — creating, enriching, linking, and routing findings to the right engineering teams, cutting manual triage and supporting the Jira migration.
 > - **Triaged AI SAST/SCA findings** across Java & Python via GitHub code-path review — validated true positives and documented suppressions for **130+ false-positive criticals** and **3,000+ orphaned vulnerabilities**; cut Wiz noise by filtering out AWS auto-scaling groups.
