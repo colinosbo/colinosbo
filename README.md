@@ -1,7 +1,7 @@
 ## 👤 About Me
 
 <p align="center">
-  <img src="./terminal.svg" alt="whoami: Colin Osborn, Security Analyst @ CCC Intelligent Solutions, B.S. Cybersecurity at Illinois State University, CompTIA Security+, focus: security engineering and agentic AI. Career: IT Support Analyst, System Administrator, IT Security Intern, Security Analyst. Projects: recon AI agent, email forensics, Covisor CI/CD pipeline, SOC LetsDefend." width="100%">
+  <img src="./terminal.svg" alt="whoami: Colin Osborn, Security Analyst @ CCC Intelligent Solutions, B.S. Cybersecurity at Illinois State University, CompTIA Security+, focus: security engineering and agentic AI. Career: IT Support Analyst, System Administrator, IT Security Intern, Security Analyst. Projects: Vizor (orchestrated Claude Code + Codex agent team), recon AI agent, email forensics, Covisor CI/CD pipeline, SOC LetsDefend." width="100%">
 </p>
 
 I work where **security operations meets agentic AI**. My days are spent triaging alerts, hunting threats in KQL and working vulnerability findings. Then I build AI agents that take over the repetitive parts so analysts can spend their time on real threats.
