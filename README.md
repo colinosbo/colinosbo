@@ -1,7 +1,7 @@
 ## 👤 About Me
 
 <p align="center">
-  <img src="./terminal.svg" alt="whoami: Colin Osborn, Security Analyst @ CCC Intelligent Solutions, B.S. Cybersecurity at Illinois State University, CompTIA Security+, focus: security engineering and agentic AI" width="100%">
+  <img src="./terminal.svg" alt="whoami: Colin Osborn, Security Analyst @ CCC Intelligent Solutions, B.S. Cybersecurity at Illinois State University, CompTIA Security+, focus: security engineering and agentic AI. Career: IT Support Analyst, System Administrator, IT Security Intern, Security Analyst. Projects: recon AI agent, email forensics, Covisor CI/CD pipeline, SOC LetsDefend." width="100%">
 </p>
 
 I work where **security operations meets agentic AI**. My days are spent triaging alerts, hunting threats in KQL and working vulnerability findings. Then I build AI agents that take over the repetitive parts so analysts can spend their time on real threats.
@@ -15,39 +15,6 @@ I work where **security operations meets agentic AI**. My days are spent triagin
 - **🤖 Agentic AI for security.** Building triage agents and multi-agent pipelines (Copilot Studio + MCP) that pull intel together, cut false positives and draft hunt queries.
 
 > Short version: I want to **automate the boring parts of security** so the hard parts get the attention they deserve.
-
----
-
-## 💼 Experience
-
-**🏢 Security Analyst · CCC Intelligent Solutions** *(May 2026 – Present)*
-> - Own daily **alert triage and vulnerability intake** across Microsoft Defender, Wiz, HackerOne and ReliaQuest GreyMatter, and start containment with session termination and credential resets.
-> - Run **2+ threat hunts a week** in KQL across Defender Advanced Hunting, Sentinel and Entra sign-in logs, and document findings in Confluence.
-> - Built **GreyMatter Teammates AI agents** to automate first-pass triage, cutting the digital risk protection backlog from **3,500 tickets to under 10**.
-> - Built a **multi-agent pipeline in Copilot Studio using MCP** that consolidates Wiz and Sentinel intel, checks it against our inventory and generates KQL hunt queries.
-> - Assess **Endor Labs SAST/SCA** findings through GitHub code-path review, and handle first-pass **HackerOne** triage: scope, report integrity, then escalation.
-
-**🖥️ Intune System Administrator · Tech-Zone** *(Nov 2025 – May 2026)*
-> Led the loaner-program migration from SCCM co-management to **cloud-native Intune**. Enforced disk encryption, LAPS, firewall and update-ring patching through compliance policies, and automated enrollment with PowerShell.
-
-**🎧 IT Support Analyst · Technology Support Center** *(Apr 2025 – May 2026)*
-> Resolved MFA, connectivity and access issues in ServiceNow, and handled compromised-account recovery through identity verification and credential resets.
-
----
-
-## 📁 Featured Projects
-
-**🤖 [Recon AI Agent](https://github.com/colinosbo/IT_359_Project)**
-Autonomous recon agent that feeds Nmap output to a local LLM (Llama 3.2) to surface attack paths and misconfigurations, then writes structured remediation reports. *(Python)*
-
-**📧 [Email-Forensics-Automation](https://github.com/colinosbo/Email-Forensics-Automation)**
-Phishing-risk reports built with SPF/DKIM checks, VirusTotal IOC enrichment and malicious/benign classification. *(Python · Microsoft Graph API · VirusTotal)*
-
-**⚙️ [CI/CD Pipeline: Covisor](https://github.com/colinosbo/covisor-cicd-pipeline)**
-Personal finance app on Azure Container Apps and Static Web Apps, shipped through GitHub Actions: test gate, Trivy image scanning, **OIDC (keyless) auth**, reviewer approvals and health-checked deploys.
-
-**🔒 [SOC-LetsDefend](https://github.com/colinosbo/SOC-LetsDefend)**
-20+ real alerts triaged across phishing, malware, ransomware and network intrusion, with MITRE ATT&CK mapping and IR writeups.
 
 ---
 
